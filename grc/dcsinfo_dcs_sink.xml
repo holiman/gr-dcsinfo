@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<block>
+  <name>Dcs sink</name>
+  <key>dcsinfo_dcs_sink</key>
+  <category>Dcs</category>
+  <import>import dcsinfo</import>
+  <make>dcsinfo.dcs_sink()</make>
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+</block>
